@@ -1,0 +1,15 @@
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav{
+    background-image: linear-gradient(to right, #000000, #332f2d );
+   
+}
+.navbar {
+   display: flex !important;
+   justify-content: space-between !important;
+    color: #fffdf1;
+}

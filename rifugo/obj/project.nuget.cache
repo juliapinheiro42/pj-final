@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "aVE4kHfGMKcisJ7Om+wcm6xOxo5AuoYq6Vm7MzMAwfckwIEfzOkvHycK8t9eTM72Q02Ijpr9qcKtJW9DMYOIjQ==",
+  "success": true,
+  "projectFilePath": "C:\\Workplace\\Refugo\\refugo-app\\rifugo\\rifugo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Familia de Farias\\.nuget\\packages\\microsoft.aspnetcore.spaservices.extensions\\5.0.13\\microsoft.aspnetcore.spaservices.extensions.5.0.13.nupkg.sha512",
+    "C:\\Users\\Familia de Farias\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Familia de Farias\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\5.0.0\\microsoft.extensions.fileproviders.physical.5.0.0.nupkg.sha512",
+    "C:\\Users\\Familia de Farias\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\microsoft.extensions.filesystemglobbing.5.0.0.nupkg.sha512",
+    "C:\\Users\\Familia de Farias\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
