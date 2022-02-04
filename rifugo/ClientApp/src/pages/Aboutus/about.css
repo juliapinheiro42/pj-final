@@ -1,6 +1,17 @@
-.rowcard{
+
+.about{
+    height: 100vh;
+    background-image: linear-gradient(to left, #222121, #131210, #332f2d 100% ); 
+}
+
+.mor-div{
     height: 100vh;
     background-image: linear-gradient(to left, #222121, #131210, #332f2d 100% );
+}
+
+.rowcard{
+    display: grid;
+    grid-template-columns: repeat(4, 01fr);
 }
 
 
@@ -87,6 +98,9 @@
     background-size:cover;
     overflow: hidden;
 }
+.front__face-photo img{
+    width: 120px;
+}
 
 .front__text {
     position: relative;
@@ -147,3 +161,37 @@
     color: #fffdf1;
     transition: all 0.4s cubic-bezier(0.3, 0.7, 0.1, 1.9);
 }
+.prop{
+    background: linear-gradient(to top, #ff7700, #fffdf1 );
+    font-weight: bolder;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.prop hr{
+    width: 50vh;
+    background: linear-gradient(to top, #ff7700, #fffdf1 );
+    border:1px solid #ff6600
+}
+
+.test{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+ .photo{
+     margin-top: 20px;
+     display: flex;
+     justify-content: end;
+     align-items: center;
+    position: relative;
+   bottom:400px;
+    left:0px;
+     width: 100%;
+
+ }
+ .photo img{
+     width: 300px;
+     height: 300px;
+ }

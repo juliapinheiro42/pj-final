@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav,
     NavItem, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import './header.css'
-
+import { Link } from 'react-router-dom';
+import logo from '../../assets/logo.svg';
 
 const Header = (props) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -13,11 +14,11 @@ const Header = (props) => {
         <div className='header w-100'>
             <Navbar  dark expand="md" className='nav'>
                 <div >
-                <NavbarBrand href='/'>Rifugô</NavbarBrand>
+                <Link to='/'> <img src={logo}/></Link>
                 </div>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
-                    <Nav  className='m-2 ' navbar>
+                    <Nav  className='m-2 navbar' navbar>
                         <NavItem >
                             <NavLink href='/aboutus'> About us</NavLink>
                         </NavItem>
@@ -28,19 +29,19 @@ const Header = (props) => {
                             <DropdownToggle nav caret>
                                 Documentation
                 </DropdownToggle>
-                            <DropdownMenu right>
+                            <DropdownMenu right className='drop'>
                                 <DropdownItem>
-                                    Documentation
+                                    <Link to='/documentation'> Documentação</Link>
                   </DropdownItem>
                                 <DropdownItem>
-                                    Dúvidas 
+                                <Link to='/duvidas'> Dúvidas </Link>
                   </DropdownItem>
                   <DropdownItem>
-                                    Tradutores 
+                  <Link to='/documentation'> Tradutores</Link>
                   </DropdownItem>
-                                <DropdownItem divider />
+                        <DropdownItem divider/>
                                 <DropdownItem>
-                                    Map
+                                <Link to='/documentation'> Map </Link>
                   </DropdownItem>
                             </DropdownMenu>
                         </UncontrolledDropdown>
