@@ -1,16 +1,15 @@
 import React from 'react';
 import './footer.css';
 import refugee from '../../assets/refugio.svg';
+import logo3 from '../../assets/rifugo.svg'
 export default function Footer() {
  return (
    <footer>
 <footer className='footer'>
-    <div className='footer-img d-lg-block d-none'>
+    <div className='footer-img d-lg-flex d-none'>
      <img src={refugee} alt='refugiado'/>
      <hr/>
-     <h4>     
-          Rifuĝo
-</h4>
+     <img src={logo3} alt='logo' className='w-25 ml-5' />
     </div>
     <div className='explore pl-3 pl-lg-0'>
         <h3 className='pr-3  '>informações</h3>

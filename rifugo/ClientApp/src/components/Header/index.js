@@ -41,7 +41,7 @@ const Header = (props) => {
                   </DropdownItem>
                         <DropdownItem divider/>
                                 <DropdownItem>
-                                <Link to='/documentation'> Map </Link>
+                                <Link to='/map'> Map </Link>
                   </DropdownItem>
                             </DropdownMenu>
                         </UncontrolledDropdown>
