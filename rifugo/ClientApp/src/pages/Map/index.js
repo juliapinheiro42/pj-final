@@ -1,18 +1,22 @@
-import "leaflet/dist/leaflet.css";
- 
-import React, { useState } from "react";
-import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
-import Leaflet from "leaflet";
-import { v4 as uuidv4 } from "uuid";
- 
- import { fetchLocalMapBox } from "../../apiMapBox";
- import AsyncSelect from "react-select/async";
- 
- 
- import "./map.css";
- 
- export default function Map(){
-   return(
-     <div></div>
-   )
+
+import React from "react";
+import Footer from '../../components/Footer';
+import CLateral from '../../components/CLateral';
+import  MapContainer from '../../components/Mapa';
+import './map.css';
+
+ export default function Map() {
+  
+
+  return (
+    <div>
+     <div className='d-flex flex-row'>
+       <CLateral/>
+       <MapContainer className='w-50 h-50'/>
+     </div>
+     <footer>
+       <Footer/>
+     </footer>
+    </div>
+  );
  }

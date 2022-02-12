@@ -1,7 +1,7 @@
 import React from 'react';
 import './footer.css';
 import refugee from '../../assets/refugio.svg';
-import logo3 from '../../assets/rifugo.svg'
+import logo3 from '../../assets/rifugo.svg';
 export default function Footer() {
  return (
    <footer>

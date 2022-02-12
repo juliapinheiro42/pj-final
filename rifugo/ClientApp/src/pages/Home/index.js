@@ -12,8 +12,8 @@ export default function Home() {
          <h2 className="m-4 pt-4">Ajude na quebra de barreira linguística</h2>
          <button className=' btn m-4 p-2 d-flex align-items-center'>Clique aqui</button>
          </div>
-    <div class="cards p-1 ">
-    <div class=" card d-flex justify-content-between align-items-center mt-4 flex-lg-row d-flex mb-3 mb-lg-4">
+    <div class="cardes p-1 ">
+    <div class=" cardss d-flex justify-content-between align-items-center mt-4 flex-lg-row d-flex mb-3 mb-lg-4">
         <div class="card1 mb-sm-3 m-2 mb-lg-4 d-block">
         <img src={refugee} alt='refugiados'/>
         </div>
