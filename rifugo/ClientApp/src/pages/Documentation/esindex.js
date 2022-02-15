@@ -13,7 +13,7 @@ export default function Documentacion() {
         <a href='/documentation' type='button' className='btn'>click</a>
     </div>
 
-    <div className=" doc">
+    <div className=" doc space">
         <div className=' ml-3 mt-3'>
         <h2 class=""> PROCEDIMIENTO DE LA SOLICITACIÓN DE ASILO</h2>
 
@@ -37,9 +37,9 @@ export default function Documentacion() {
                 Los solicitantes que no renovaren el protocolo en el plazo están sujetos al archivo de su solicitud de asilo. </span> <br/> <span>
                 Haga atención a la fecha de renovación anotada en su protocolo, y comparezca en la Policía Federal antes de la fecha de vencimiento.
             </span>
-            <div class=" photo d-lg-flex d-none justify-content-end align-items-end">
+            <div  class=" photo d-lg-flex d-none justify-content-end align-items-end">
                <img src={logo2}/>
-            </div>
+               </div>
         </div>
     <div className="doc">
         <h3 className=" ml-3">Después de registrar su solicitación en la Policía Federal</h3>
@@ -99,6 +99,7 @@ export default function Documentacion() {
                 <li className=" ml-3 mt-3">
                     Protocolo Provisional emitido por la Policía Federal original con copia;
                 </li>
+                <br/>
             </ul>
         </div>
         <div className='doc'>

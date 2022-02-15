@@ -9,9 +9,10 @@ export default function Home() {
   <div className='container-center'>
     <Header/>
   <div className="flex-column m-4 p-4">
-         <h2 className="m-4 pt-4">Ajude na quebra de barreira linguística</h2>
+         <h4 className="m-4 pt-4">Ajude na quebra de barreira linguística</h4>
          <button className=' btn m-4 p-2 d-flex align-items-center'>Clique aqui</button>
          </div>
+         
     <div class="cards p-1 ">
     <div class=" card d-flex justify-content-between align-items-center mt-4 flex-lg-row d-flex mb-3 mb-lg-4">
         <div class="card1 mb-sm-3 m-2 mb-lg-4 d-block">
@@ -23,8 +24,11 @@ export default function Home() {
         <div class="card3 mb-sm-3 m-2 d-none d-lg-block mb-lg-4">
         <img src={refugee} alt='refugiados'/>
         </div>
+        
     </div>
     <div className='d-flex flex-column m-lg-5 m-3 words'>
+      <br/>
+      <br/>
       <h2>Conheça Rifuĝo</h2>
       <div>
       <h5>Rifuĝo significa Refúgio em Esperanto</h5>
@@ -40,17 +44,19 @@ export default function Home() {
       nas Olimpíadas.
        </span>
        </div>
-       <div className='m-4 d-none d-xl-flex'>
+       <div className='m-4 d-none d-flex'>
          <a href='/aboutus' className='btn ' type='button'>Saiba mais</a>
        </div>
-       <div className='photo'>
-         <img src={logo} />
+       <br/>
+       <div className='photo  d-none d-md-flex' >
+         <img src={logo}/>
        </div>
     </div>
   </div>
-  <footer>
-<Footer/>
-  </footer>
+   
+<Footer>  
+ <Footer/>
+</Footer>  
 </div>
  )
 }

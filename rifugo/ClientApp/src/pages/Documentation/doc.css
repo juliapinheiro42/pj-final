@@ -1,5 +1,6 @@
+
 .doc{
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(to left, #000000, #2a2a2a, #000000 100% );
 }
 .doc h2, .doc h3, .doc h4{
@@ -9,6 +10,7 @@
     -webkit-background-clip: text;
     color: transparent;
     padding: 20px 0 15px 0;
+    font-size: max(20px, 2vw);
 } 
 .doc span, .doc li{
     background: linear-gradient(to top, #ff7700, #fffdf1 );
@@ -17,8 +19,11 @@
     -webkit-background-clip: text;
     color: transparent;
     margin-left: 15px;
+    font-size: clamp(0.5em, 1em + 1vw, 1em);
     
 }
 .rec span{
-margin-bottom: 10px;
+    margin-bottom: 10px;
 }
+
+

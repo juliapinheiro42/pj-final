@@ -10,14 +10,14 @@ export default function Documentation() {
    <div className='container-center'>
    <Header/>
    <div className="flex-column m-4 p-5">
-        <h2  className="mb-3 mr-3 mt-4">Leer en espanõl</h2>
+        <h2  className="mb-3 mr-3 mt-3">Leer en espanõl</h2>
         <a type='button' href='/documentacion' className='btn'>click</a>
     </div>
 
-    <div className=" doc">
+    <div className=" doc ">
         <div>
         <h2 class=" d-flex justify-content-start ml-3">PROCEDIMENTO DO PEDIDO DE REFÚGIO </h2>
-        <h3 class=" d-flex justify-content-start text-align-center ml-3"> Para registrar a sua solicitação de refúgio</h3>
+        <h3 class=" d-flex justify-content-start text-align-center ml-3 "> Para registrar a sua solicitação de refúgio</h3>
         
             <span class="">É necessário preencher um TERMO DE SOLICITAÇÃO DE REFÚGIO em qualquer posto da Polícia Federal.</span> <br/>
             <span class="">
@@ -41,7 +41,7 @@ export default function Documentation() {
             </div>
         </div>
     <div class="doc">
-        <h3 class=" d-flex justify-content-start ml-3 ">Após registrar sua solicitação na Polícia Federal</h3>
+        <h3 class=" d-flex justify-content-start ml-3">Após registrar sua solicitação na Polícia Federal</h3>
         <div>
             <span class="">
                 Você receberá um <b>PROTOCOLO PROVISÓRIO</b>, válido por 1 ano e renovável até a decisão final do <b>CONARE</b> sobre o seu pedido de refúgio.</span> <br/> <span>
@@ -58,28 +58,29 @@ export default function Documentation() {
             </span>
         </div>
         <div>
-            <h4 class=" d-flex justify-content-start ml-3 mt-3">O que é o CPF e quem pode solicitá-lo?</h4>
+            <h4 class=" d-flex justify-content-start ml-3 mt-3 ">O que é o CPF e quem pode solicitá-lo?</h4>
             <span class="">
                 O CPF é um dos principais documentos para cidadãos residentes no Brasil, pois permite o acesso a uma série de facilidades.</span> <br/> <span>Por exemplo, registro em
                 instituições públicas de educação, a abertura de contas em bancos e outras operações financeiras. </span> <br/> <span>Qualquer pessoa física, nacional ou estrangeira, pode solicitar a inscrição no CPF.
-            </span>
+            <br/></span>
         </div>
-        <div class="d-none d-lg-block">
+        <div class="d-none d-lg-block ">
             <h4 class=" d-flex justify-content-start ml-3 mt-3">Quais são os documentos necessários para solicitar o CPF?</h4>
             <span class="">Os maiores de 18 anos deverão apresentar o original ou a cópia autenticada do seu documento de identificação.</span> <br/>
             <span class=""> Os menores de 18 anos deverão apresentar o original ou a cópia autenticada do seu documento de identificação </span> <br/> <span> e o documento de identificação de um dos pais ou responsável.</span>
+       
         </div>
     </div>
     
     <div className='doc'>
-        <h3 class=" d-flex justify-content-start ml-3">CARTEIRA DE TRABALHO E PREVIDÊNCIA SOCIAL (CTPS)</h3>
+        <h3 class=" d-flex justify-content-start ml-3 ">CARTEIRA DE TRABALHO E PREVIDÊNCIA SOCIAL (CTPS)</h3>
 
-        <h4 class=" d-flex justify-content-start m-3">O que é a CTPS e quem pode solicitá-la?</h4>
+        <h4 class=" d-flex justify-content-start m-3 ">O que é a CTPS e quem pode solicitá-la?</h4>
         <span class="">
             A Carteira de Trabalho e Previdência Social (CTPS) é o documento que comprova toda a vida funcional  do trabalhador </span> <br/> <span> e autoriza as empresas a contratá-lo como empregado.</span> <br/> <span>
             Este documento é obrigatório para o exercício de atividades profissionais </span> <br/> <span>e pode ser solicitado por qualquer pessoa maior de 14 anos, nacional ou estrangeira, com residência regular no Brasil.
         </span>
-        <h4 class=" d-flex justify-content-start m-lg-3">Onde posso solicitar a CTPS?</h4>
+        <h4 class=" d-flex justify-content-start m-lg-3 ">Onde posso solicitar a CTPS?</h4>
         <span class="">
             O interessado em tirar ou renovar a Carteira de Trabalho e Previdência Social 
             </span> <br/> <span> deverá dirigir-se à Superintendência Regional do Trabalho e Emprego (SRTE) 
@@ -87,14 +88,14 @@ export default function Documentation() {
                 </span> <br/> <span>
             Informações sobre a localização dos postos de atendimento podem ser obtidas pelo telefone 158 na Central de Atendimento Alô Trabalho.
         </span>
-        <h4 class=" d-flex justify-content-start m-lg-3">Quais os documentos necessários para a CTPS?</h4>
+        <h4 class=" d-flex justify-content-start m-lg-3 " >Quais os documentos necessários para a CTPS?</h4>
         <ul>
             <li class=""> Duas fotos em tamanho 3cmx4cm, com fundo branco, coloridas ou em preto-e-branco, iguais e recentes;</li>
-            <li class=""> Protocolo Provisório expedido pela Polícia Federal original acompanhado de cópia.</li>
+            <li class=""> Protocolo Provisório expedido pela Polícia Federal original acompanhado de cópia.</li><br/>
         </ul>
         </div>
         <div className='doc'>
-        <h3 class=" d-flex justify-content-start ml-3">SE O SEU PEDIDO DE REFÚGIO FOI NEGADO</h3>
+        <h3 class=" d-flex justify-content-start ml-3 ">SE O SEU PEDIDO DE REFÚGIO FOI NEGADO</h3>
             <span >
                 Apresentar um recurso para O Ministro da Justiça no prazo de <b>15 DIAS</b> contados a partir do recebimento da notificação.</span> <br/> <span>
                 O pedido de revisão da decisão do CONARE deve ser fundamentado, ou seja, deve indicar </span> <br/> <span> e explicar detalhadamente as razões pelas quais você não concorda com a decisão</span> <br/> <span> e se o problema da decisão está na interpretação dos fatos ou aplicação das regras ao caso.
@@ -107,7 +108,7 @@ export default function Documentation() {
                 Se a <b>DECISÃO DO MINISTRO DA JUSTIÇA</b> também for negativa, significa que o processo administrativo de refúgio terminou </span> <br/> <span> e você será submetido à lei de estrangeiros vigente no Brasil.</span> <br/> <span>
                 Neste caso, você pode procurar a Defensoria Pública da União para obter orientações sobre as medidas cabíveis.
             </span>
-        </div>
+            </div>
         <footer>
           <Footer/>
            </footer>

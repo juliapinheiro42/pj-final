@@ -2,18 +2,19 @@
 
 .container-center{
     width: 100%;
-    height: 70vh;
-    background-image: url(../../assets/ev.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(../../assets/welcome3.jpeg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center;
    
 }
-.container-center h2, h5{
+.container-center h2, h5, h4{
     background: linear-gradient(to top, #ff7700, #fffdf1 );
     font-weight: bolder;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    height: 80px;
 }
 .btn{
     border-radius: 10px;
@@ -31,7 +32,7 @@
 
 .cards{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(to right, #000000, #131210, #332f2d 100% );
 }
 .card{
@@ -195,6 +196,7 @@
     .photo img{
         width: 300px;
         height: 300px;
+        
     }
 
  

@@ -2,15 +2,15 @@ import React from 'react';
 import Header from '../../components/Header';
 import './about.css';
 import logo from '../../assets/logo2.svg';
-import Footer from '../../components/Footer';
 import { BsGithub, BsLinkedin, BsArrowRepeat } from 'react-icons/bs';
+import Footer from '../../components/Footer';
 
 export default function Aboutus() {
  return (
   <div className='container-center'>
   <Header/>
 <div className="flex-column m-4 p-4">
-       <h2 className="m-4 pt-4">Ajude na quebra de barreira linguística</h2>
+       <h4 className="m-4 pt-4">Ajude na quebra de barreira linguística</h4>
        <button className=' btn m-4 p-2 d-flex align-items-center'>Clique aqui</button>
        </div> 
        <div className='h-100 pt-4 about'> 
@@ -35,7 +35,7 @@ export default function Aboutus() {
          O site conta com APIs para geolocalização e tradução,
             também conta com tradutores voluntários para melhor comunicação. </span>
             </div>
-            <div className='photo'>
+            <div className='photo d-none d-xl-flex'>
                <img src={logo}/>
             </div>
     </div>

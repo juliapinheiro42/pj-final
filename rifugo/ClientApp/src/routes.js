@@ -6,7 +6,7 @@ import Documentation from './pages/Documentation';
 import Documentacion from './pages/Documentation/esindex';
 import Duvidas from './pages/Duvidas';
 import Preguntas from './pages/Duvidas/Preguntas';
-import Map from './pages/Map';
+
 
 export default function Routes() {
  return (
@@ -18,7 +18,7 @@ export default function Routes() {
          <Route path='/documentacion' component={Documentacion}/>
          <Route path='/duvidas' component={Duvidas}/>
          <Route path='/preguntas' component={Preguntas}/>
-         <Route path='/map' component={Map}/>
+         
      </Switch>
    </div>
  );

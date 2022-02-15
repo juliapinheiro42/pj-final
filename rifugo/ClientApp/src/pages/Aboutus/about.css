@@ -1,11 +1,11 @@
 
 .about{
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(to left, #222121, #131210, #332f2d 100% ); 
 }
 
 .mor-div{
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(to left, #222121, #131210, #332f2d 100% );
 }
 
@@ -195,3 +195,38 @@
      width: 300px;
      height: 300px;
  }
+
+ @media screen and (max-width: 600px) {
+
+
+
+    .rowcard{
+        display: grid;
+        grid-template-columns: repeat(3, 01fr);
+
+    }
+    .front__text-hover{
+     display: none;
+    }
+    .rowcard span svg{
+        color: transparent;
+       }
+    .outer-div,
+.inner-div {
+    height: 300px;
+    max-width: 300px;
+    margin-left: 3px;
+    position: relative;
+}
+.front__bkg-photo {
+    position: relative;
+    height: 100px;
+    width: 30px;
+}
+front__face-photo {
+    position: relative;
+    top: -60px;
+    height: 60px;
+    width: 60px;
+}
+}
